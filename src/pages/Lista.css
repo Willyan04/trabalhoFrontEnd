@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.background {
+    background: #5CA170;
+    height: 100%;
+}
+
+.loading {
+    height: 100vh;
+    background: #5CA170;
+    display: flex;
+    flex: row;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.spinner {
+    padding: 20px;
+}
+
+.loadingFont {
+    font-size: 55px;
+    color: #000;
+}
+
+.body {
+    height: 100%;
+}
+
+.carta {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+    margin: 15px;
+}
+
+.carta:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 30px;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
